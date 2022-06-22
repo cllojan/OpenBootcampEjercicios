@@ -1,0 +1,18 @@
+*{
+    background-color: darkcyan;
+}
+p{
+    color: rgb(62, 6, 114);
+}
+
+.miparrafo{
+    color: aquamarine;
+}
+
+.container p{
+    color: brown;
+}
+
+.container .miparrafo{
+    color: yellow;
+}

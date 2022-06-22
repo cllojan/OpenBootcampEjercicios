@@ -1,0 +1,28 @@
+.container{
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    
+}
+
+.video{
+    width: 500px;
+}
+
+.imagen{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .container{
+        width: auto;
+        background-color: green;
+    }
+    .video{
+        display: none;
+    }
+    .imagen{
+        display: block;
+        width: 500px;
+    }
+}

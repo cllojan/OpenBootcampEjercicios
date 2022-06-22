@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        table tr td {
+            border: 1px solid #000;
+        } 
+        th{
+            border: 1px solid #000;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </li>
+            <li>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </li>
+            <li>
+                <label for="email">e-mail:</label>
+                <input type="email" id="e-mail" name="email">
+            </li>
+            <li>
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="telefono" name="telefono">
+            </li>
+            <li>
+                <label for="direccion">Direccion:</label>
+                <input type="text" id="direccion" name="direccion">
+            </li>
+        </ul>
+    </form>
+    <div class="cont-table">
+        <table style="border: 1px solid #000;">
+            <tr>
+                <th >Primera</th>
+                <th>Segunda</th>
+                <th>Tercera</th>
+                <th >Cuarta</th>
+            </tr>
+            <tr>
+                <td colspan="2">A</td>
+                <td >A</td>
+                <td >A</td>
+                <td >A</td>
+            </tr>
+            <tr>
+                <td rowspan="2">A</td>
+                <td >A</td>
+                <td >A</td>
+                <td >A</td>
+            </tr>
+            <tr>
+                <td >A</td>
+                <td >A</td>
+                <td >A</td>
+                <td >A</td>
+            </tr>
+            <tr>
+                <td >A</td>
+                <td >A</td>
+                <td >A</td>
+                <td >A</td>
+            </tr>
+          
+        </table>
+    </div>
+</body>
+
+</html>

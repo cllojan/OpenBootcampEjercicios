@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cubo-1 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    transition: 3s;
+
+}
+
+.cubo-1:hover {
+    transform: rotate(360deg);
+}
+
+.cubo-2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(15, 15, 95);
+    transition: 3s;
+}
+
+.cubo-2:hover {
+    opacity: 0;
+    transform: translate(350px, 0);
+}

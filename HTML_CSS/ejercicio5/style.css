@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    
+    margin: 40px;
+    padding-left: 10px;
+    border: 2px solid rgba(8, 6, 32, 0.863);
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.cont-img{   
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;   
+    background-color: #2980B9;
+   
+}
